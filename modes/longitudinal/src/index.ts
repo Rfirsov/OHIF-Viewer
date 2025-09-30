@@ -245,9 +245,9 @@ function modeFactory({ modeConfiguration }) {
           return {
             id: ohif.layout,
             props: {
-              leftPanels: [tracked.thumbnailList],
+              leftPanels: [cornerstone.segmentation, tracked.measurements],
               leftPanelResizable: true,
-              rightPanels: [cornerstone.segmentation, tracked.measurements],
+              rightPanels: [tracked.thumbnailList],
               rightPanelClosed: true,
               rightPanelResizable: true,
               viewports: [
