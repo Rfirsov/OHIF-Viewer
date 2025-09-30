@@ -131,6 +131,7 @@ function modeFactory({ modeConfiguration }) {
       ]);
 
       toolbarService.updateSection('MeasurementTools', [
+        'Angle',
         'Length',
         'Bidirectional',
         'ArrowAnnotate',
@@ -153,7 +154,6 @@ function modeFactory({ modeConfiguration }) {
         'invert',
         'Probe',
         'Cine',
-        'Angle',
         'CobbAngle',
         'Magnify',
         'CalibrationLine',
